@@ -17,5 +17,6 @@ SET @ProducerName = 'Unknown production'
 
 INSERT INTO @ProductTable VALUES ('Balloon')
 INSERT INTO @ProductTable VALUES ('Banana')
+INSERT INTO @ProductTable VALUES ('Chicken')
 
 EXECUTE CreateProducerAndHisProducts @ProducerCode, @ProducerName, @ProductTable
